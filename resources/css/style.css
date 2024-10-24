@@ -62,11 +62,35 @@
     text-align: center;
   }
 
+  /* Text */
   a {
     color: aquamarine;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6, p {
     color: white;
     margin-block-end: 1rem;
+  }
+
+  .subtitle {
+    color: gray;
+  }
+
+  /* Media */
+  img, video {
+    margin-inline: auto;
+  }
+
+  .img__default {
+    width: 75%;
+  }
+
+  /* Sections */
+  section {
+    margin-block-end: 2rem;
+  }
+
+  .copyright {
+    text-align: right;
+    color: gray;
   }
