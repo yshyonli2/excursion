@@ -2,106 +2,110 @@
 /* https://www.joshwcomeau.com/css/custom-css-reset/ */
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  
-  /* 2. Remove default margin */
-  * {
-    margin: 0;
-  }
-  
-  body {
-    /* 3. Add accessible line-height */
-    line-height: 1.5;
-    /* 4. Improve text rendering */
-    -webkit-font-smoothing: antialiased;
-  }
-  
-  /* 5. Improve media defaults */
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  
-  /* 6. Inherit fonts for form controls */
-  input, button, textarea, select {
-    font: inherit;
-  }
-  
-  /* 7. Avoid text overflows */
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  
-  /* 8. Improve line wrapping */
-  p {
-    text-wrap: pretty;
-  }
+  box-sizing: border-box;
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
-  }
-  
-  /* 9. Create a root stacking context */
-  /* Only needed for React / JS */
-  /* #root, #__next {
-    isolation: isolate;
-  } */
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
 
-  /* || Base */
-  /* https://css-tricks.com/html-vs-body-in-css/ */
-  /* https://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/ */
-  html {
-    font-size: 16px;
-    background-color: black;
-  }
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
 
-  body {
-    padding: 1rem;
-    font-family: Verdana, sans-serif;
-    text-align: center;
-  }
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
 
-  /* Text */
-  a {
-    color: aquamarine;
-  }
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
 
-  h1, h2, h3, h4, h5, h6, p {
-    margin-block-end: 1rem;
-    font-weight: normal;
-    color: white;
-  }
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
 
-  h1 {
-    font-size: 50px;
-  }
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
 
-  h2 {
-    font-size: 42px;
-  }
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
 
-  .subtitle {
-    font-size: 21px;
-    color: gray;
-  }
+/* 9. Create a root stacking context */
+/* Only needed for React / JS */
+/* #root, #__next {
+  isolation: isolate;
+} */
 
-  /* Media */
-  img, video {
-    margin-block-end: 1rem;
-    margin-inline: auto;
-  }
+/* || Base */
+/* https://css-tricks.com/html-vs-body-in-css/ */
+/* https://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/ */
+html {
+  font-size: 16px;
+  background-color: black;
+}
 
-  .img__default {
-    width: 75%;
-  }
+body {
+  padding: 1rem;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
 
-  /* Sections */
-  section {
-    margin-block-end: 2rem;
-  }
+/* Text */
+h1, h2, h3, h4, h5, h6, p {
+  margin-block-end: 1rem;
+  font-weight: normal;
+  color: white;
+}
 
-  .copyright {
-    text-align: right;
-    color: gray;
-  }
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+a {
+  color: aquamarine;
+}
+
+.subtitle {
+  font-size: 21px;
+  color: gray;
+}
+
+/* Media */
+img, video {
+  margin-block-end: 1rem;
+  margin-inline: auto;
+}
+
+.img__default {
+  width: 75%;
+}
+
+video {
+  margin-block-start: 1rem;
+}
+
+/* Sections */
+section {
+  margin-block-end: 2rem;
+}
+
+.copyright {
+  text-align: right;
+  color: gray;
+}
